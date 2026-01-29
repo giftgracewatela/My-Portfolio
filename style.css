@@ -1,0 +1,32 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px;
+}
+
+.navelements{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbutton{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbutton button{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+}
