@@ -4,24 +4,33 @@
     box-sizing: border-box;
 }
 
+/*NAV BAR*/
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding: 5px 20px;
+    background-color: rgb(243, 196, 79);
 }
 
-.navelements{
+.navelements ul{
     list-style: none;
     display: flex;
     gap: 30px;
+}
+
+.navelements ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 .navbutton{
     background-color: black;
     color: white;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .navbutton button{
@@ -29,4 +38,151 @@
     outline: none;
     border: none;
     color: white;
+}
+
+/*HERO SECTION*/
+.herosection{
+    background-color: maroon;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.herosection .herodescription{
+    max-width: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.herodescription h1{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.herodescription button{
+    background-color: black;
+    color: white;
+    background: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.heroimage img{
+    border-radius: 20px;
+
+}
+
+/*MY WORK SECTION*/
+.workmetrics{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px;
+}
+
+.workmetrics h4{
+    font-size: 20px;
+}
+
+.workmetrics .work-metrics{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.workmetrics .work-metrics h6{
+    font-size: 15px;
+}
+
+.workprojects{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.workprojects img{
+    width: 400px;
+    border-radius: 10%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*BRANDS SECTION*/
+.brands{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 196, 79);
+}
+
+.bestbrands h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.best-brands{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 30px;
+}
+
+.best-brands img{
+    width: 120px;
+
+}
+
+.bestbrands button{
+    background-color: black;
+    color: white;
+}
+
+/*MY PORTFOLIO*/
+.portfolio{
+    background-color: rgb(243, 196, 79);
+}
+
+.myportfolio{
+    display: grid;
+    gap: 30px;
+    margin-bottom: 30px;
+    background-color: maroon;
+}
+
+.portfoliobuttons{
+    background-color: black;
+    color: white;
+}
+
+.my-portfolio img{
+    width: 200px;
+    border-radius: 10%;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+}
+
+/*MY CLIENTS*/
+.myclients{
+    background-color: maroon;
+}
+
+.myclients h4{
+    font-size: 20px;
+}
+
+.my-clients{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*FOOTER*/
+.footer{
+    background-color:  rgb(243, 196, 79);
+    padding: 20px;
 }
