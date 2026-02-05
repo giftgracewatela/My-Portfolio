@@ -171,7 +171,7 @@
 }
 
 .my-portfolio{
-    display: grid;
+    display: list-item;
 }
 
 .my-portfolio img{
