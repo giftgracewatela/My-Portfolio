@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -79,13 +79,13 @@
 /*MY WORK SECTION*/
 .work{
     padding: 10px;
+    background-color:  rgb(243, 196, 79);
 }
 
 .workmetrics{
     display: flex;
     justify-content: space-between;
     margin: 30px 30px;
-    background-color:  rgb(243, 196, 79);
     margin: none;
     border: none;
     padding: 20px;
@@ -170,12 +170,24 @@
     color: white;
 }
 
+.my-portfolio{
+    display: flex;
+    gap: 30px;
+}
+
 .my-portfolio img{
-    width: 200px;
+    width: 180px;
     border-radius: 10%;
     height: 200px;
     object-fit: cover;
     display: grid;
+}
+
+.my-portfolio button{
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
 }
 
 /*MY CLIENTS*/
